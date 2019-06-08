@@ -1,0 +1,30 @@
+# Python
+*.pyc
+
+# PyCharm
+.idea/workspace.xml
+.idea/tasks.xml
+
+# Buildout
+develop-eggs
+eggs/*
+parts/*
+buildout.cfg
+bin
+etc
+upgrade.py
+upgrade.log
+
+# Misc
+.installed.cfg
+local.cfg
+custom-modules-guido
+*.save
+
+# Custom packages
+anybox.recipe.odoo
+freshfilter.scripts.odoo
+openupgradelib
+odoosync
+*.timestamp
+install2
